@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
     
     /*
-    /*Pengerjaan Tanggal 08-0400-2020
+    /*Pengerjaan Tanggal 08-04-2020
     /*Deskripsi pengerjaan:mengerjakan =layout button,image,text view ,edit text,gradasi warna linked frame ,dll
     /*10117156 AldiAlfarizi IF4 
 }
