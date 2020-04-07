@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="btColor">#f4de15</color>
+    <color name="baColor">#FFFFFF</color>
+    <color name="brColor">#000000</color>
+    <color name="black3">#202020</color>
+    <color name="sunyellow">#ffe41e</color>
+    <color name="sunflower">#ffc50d</color>
+    <color name="lavender">#8084f6</color>
+    <color name="purple">#494dea</color>
+
+
+</resources>

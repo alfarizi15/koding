@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_isidata"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    tools:context="isidata"
+
+    >
+
+    <TextView
+        android:text="Nama Panggilan Kamu"
+
+        android:textColor="@color/brColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="98dp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Contoh : Budi"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+
+        />
+
+    <TextView
+        android:text="Umur Kamu"
+
+        android:textColor="@color/brColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="300dp"
+        android:id="@+id/textView1" />
+
+    <EditText
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Contoh : 12"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+
+        />
+
+    <Button
+        android:id="@+id/btninfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/brColor"
+        android:text="Selanjutnya"
+        android:fontFamily="@font/rubik_regular"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:onClick="masuk"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+
+
+
+
+
+
+</RelativeLayout>
